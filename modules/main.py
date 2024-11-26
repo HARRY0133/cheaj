@@ -33,7 +33,7 @@ import yt_dlp as youtube_dl
 
 # Initialize bot
 bot = Client("bot",
-             bot_token=7426490384:AAFR2QrUVyTPICFsA75XA17NdGE5HuRggeo,
+             bot_token=7606517173:AAGo-e-idfoSDyzNrc9FP6MkP9EKhIECnlo,
              api_id=27679306,
              api_hash=d0f390f798eec4ddb9246a00a44b7a3f)
 
@@ -44,9 +44,9 @@ OWNER_IDS = [7408311604]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = -1002263726267
-authorized_users = [7408311604]
-ALLOWED_CHANNEL_IDS = [1002263726267]
+log_channel_id = -
+authorized_users = []
+ALLOWED_CHANNEL_IDS = []
 my_name = "ROWDY❤️"
 overlay = None 
 accept_logs = 0
