@@ -33,9 +33,9 @@ import yt_dlp as youtube_dl
 
 # Initialize bot
 bot = Client("bot",
-             bot_token=8195852910:AAGhCD8DxebQunQiGnkLyq8M_HXIQutiqug,
-             api_id=27679306,
-             api_hash=d0f390f798eec4ddb9246a00a44b7a3f)
+             bot_token=7426490384:AAFR2QrUVyTPICFsA75XA17NdGE5HuRggeo,
+             api_id=24515547,
+             api_hash=0809699a061f02fbbcc1a6c4443547ee)
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
@@ -44,7 +44,7 @@ OWNER_IDS = [7408311604]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = -1002486025706
+log_channel_id = -1002263726267
 authorized_users = []
 ALLOWED_CHANNEL_IDS = []
 my_name = "ROWDY❤️"
