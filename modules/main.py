@@ -33,7 +33,7 @@ import yt_dlp as youtube_dl
 
 # Initialize bot
 bot = Client("bot",
-             bot_token=7606517173:AAGo-e-idfoSDyzNrc9FP6MkP9EKhIECnlo,
+             bot_token="7606517173:AAGo-e-idfoSDyzNrc9FP6MkP9EKhIECnlo"
              api_id=27679306,
              api_hash=d0f390f798eec4ddb9246a00a44b7a3f)
 
