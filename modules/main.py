@@ -40,11 +40,11 @@ bot = Client("bot",
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [766907516]  # Replace with the actual owner user IDs
+OWNER_IDS = [7408311604]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = 1001876658962
+log_channel_id = 1002253115462
 authorized_users = []
 ALLOWED_CHANNEL_IDS = []
 my_name = "ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽"
@@ -1060,8 +1060,8 @@ async def process_links(bot, m, links, b_name, count, end_count, raw_text2, res,
                 #cmd = f'yt-dlp -o "{name}.mp4" --user-agent "{user_agent}" "{url}"'
 
             else:
-                cmd = f"yt-dlp --verbose -f '{ytf}' '{url}' -o '{name}.mp4' --no-check-certificate --retry 5 --retries 10 --concurrent-fragments 8"
-                #cmd = f"yt-dlp --verbose --cookies '{cookies_file_path}' -f '{ytf}' '{url}' -o '{name}.mp4' --concurrent-fragments 8"
+                #cmd = f"yt-dlp --verbose -f '{ytf}' '{url}' -o '{name}.mp4' --no-check-certificate --retry 5 --retries 10 --concurrent-fragments 8"
+                cmd = f"yt-dlp --verbose --cookies '{cookies_file_path}' -f '{ytf}' '{url}' -o '{name}.mp4' --concurrent-fragments 8"
 
 
 #===============================================================
