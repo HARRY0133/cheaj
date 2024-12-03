@@ -33,7 +33,7 @@
         },
         "MONGO_URI": {
             "description": "Enter your MongoDB connection string",
-            "value": "",
+            "value": "mongodb+srv://rowdybro013:DmnZ3s14aRbfA8tb@cluster01.ramjm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01",
             "required": true
         }
     },
